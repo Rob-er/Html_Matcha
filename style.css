@@ -2,9 +2,11 @@ body{ background-color: #fffbf7;
 }
 h1{
     color: #8b8b8bcc;
+    align-items: center;
 }
 h4{
     color: #46484c;
+    align-items: center;
 }
 button{
     color: #fff;
@@ -15,8 +17,13 @@ button{
 }
 form{
     text-align: center;
+    align-items: center;
 }
 input{
     height: 45px;
     margin: -9px;
+    align-items: center;
+}
+p{
+    align-items: center;
 }
