@@ -10,4 +10,12 @@ button{
     color: #fff;
     background-color: #025157;
     align-items: center;
+    margin-left: 5px;
+    height: 35px;
+}
+form{
+    text-align: center;
+}
+input{
+    height: 35px;
 }
