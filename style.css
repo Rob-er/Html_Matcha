@@ -116,7 +116,9 @@ section {
 article{
     margin-left: 25px;
 }
-
+article > h3{
+    color: blueviolet;
+}
 
 
 
