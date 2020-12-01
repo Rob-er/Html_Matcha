@@ -178,23 +178,83 @@ article> button{
 }
 .texto_art>*{
     flex-direction: column;
-    text-align: justify;
-    width: 50%;
+    text-align: left;
+    width: 65%;
     margin-left: 40px;
     margin-top: 20px;
 }
 .texto_art > h3{
-    font-size: 25px;
+    font-size: 27px;
+    font-weight: normal;
+}
+.texto_art > p{
+    font-size: 19px;
+    font-weight: normal;
+    color: grey;
+    margin-bottom: 20px;
+}
+.texto_art > a{
+    color: green;
+    text-decoration: none;
 }
 .texto_art>.logo_rosa{
     height: 50px;
     width: 50px;
 }
 .art_1_azul > img{
-    height: 250px;
-    width: 150px;
+   
     display: inline;
+    width: 170px;
+    height:240px;
+    margin-right: 0;
+    border-style: hidden;
 }
+
+
+
+.art_2_azul{
+    background-color: white;
+    width: 40%;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display:inline-flex;
+}
+.texto_art_2>*{
+    flex-direction: column;
+    text-align: left;
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.texto_art_2 > h3{
+    font-size: 27px;
+    font-weight: normal;
+}
+.texto_art_2 > p{
+    font-size: 19px;
+    font-weight: normal;
+    color: grey;
+    margin-bottom: 20px;
+}
+.texto_art_2 > a{
+    color: green;
+    text-decoration: none;
+}
+.texto_art_2>.logo_azul{
+    height: 50px;
+    width: 50px;
+}
+.art_2_azul > img{
+   
+    display: inline;
+    width: 170px;
+    height:240px;
+    margin-right: -16px;
+    border-style: hidden;
+}
+
 
 
 
