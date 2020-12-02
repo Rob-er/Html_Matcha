@@ -1,37 +1,68 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 body{ background-color: #fffbf7;
 }
-h1{
-    color:#8b8b8bcc;
+
+.Titulo{
+    display: block;
+    align-content: center;
+    margin-top: 285px;
+    margin-bottom: 20px;
+}
+
+ h1{
+    color: #025157;
     text-align: center;
+    font-size: 55px;
+    margin-bottom: 25px;
 }
 h4{
     color: #46484c;
     text-align: center;
+    font-size: 18px;
 }
+.boton_try{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 button{
     color: #fff;
     background-color: #025157;
     align-items: center;
     margin-left: 5px;
     height: 50px;
-}
-form{
-    text-align: center;
-    align-items: center;
+    border-radius: 5px;
+    border: none;
+    padding: 10px, 10px, 1opx, 10px;
+    width: 130px;
+    font-size: 15px;
 }
 input{
     height: 45px;
     margin: -9px;
-    align-items: center;
+    text-align: left;
+    padding-left: 13px;
+    border-radius: 5px;
+    border: slategrey;
+    border-style: solid;
+    border-width: thin;
 }
 p{
     text-align: center;
+    font-size: 16px;
+    color: darkgray;
+}
+.parrafo_no_credit{
+    margin-bottom: 20px;
+}
+.img_capterra{
+   margin-bottom: 25px;
 }
 img{
     display: block;
@@ -44,6 +75,7 @@ a img{
 li{
     display:inline-block;
     text-align: left;
+    padding-right: 10px;
 }
 .header{
     margin-top: 10px;
@@ -52,6 +84,7 @@ li{
     font-size: 0px;
     height: 45px;
     font-family: sans-serif; 
+    background-color: #fffbf7;
 }
 .header > * {
     display: inline-block;
@@ -60,14 +93,22 @@ li{
     vertical-align: middle;
     line-height: 45px;
 }
+.fijar_nave>*{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 .imagen{
     width: 10%;
 }
 .Navegador{
-    width: 65%;
+    width: 67%;
     text-align: center;
     margin-left: 25px;
-    margin-right: 10px;
+    margin-right: 7px;
     color: #025157;
     font-weight: 500;
 }
@@ -86,10 +127,14 @@ li{
     background-color:#67b54b;
     border: 0ch;
     border-radius: 5px;
-    padding: 12px, 12px, 14px, 14px;
+    padding: 12px, 12px, 12px, 12px;
+    width: 104px;
+    height: 50px;
 }
 .Sign{
     color: #67b54b;
+    text-decoration: none;
+    margin-left: 10px;
 }
 .video{
     position: static;
@@ -123,6 +168,7 @@ article > p{
 }
 .parrafito{
     margin-bottom: 10px;
+    color: darkgray;
 }
 article > input{
     margin-left: 3px;
@@ -146,14 +192,7 @@ article> button{
     height: 40px;
     width: 120px;
 }
-.fijar_nave{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+
 .art_paral{
     display: block;
     position: static;
@@ -165,7 +204,6 @@ article> button{
     width: 100%;
     height: 800px;
     align-items: stretch;
-
 }
 .art_1_azul{
     background-color: white;
@@ -255,25 +293,92 @@ article> button{
     border-style: hidden;
 }
 
+.art_3_azul{
+    background-color: white;
+    width: 40%;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display:inline-flex;
+}
+.texto_art_3>*{
+    flex-direction: column;
+    text-align: left;
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.texto_art_3 > h3{
+    font-size: 27px;
+    font-weight: normal;
+}
+.texto_art_3 > p{
+    font-size: 19px;
+    font-weight: normal;
+    color: grey;
+    margin-bottom: 20px;
+}
+.texto_art_3 > a{
+    color: green;
+    text-decoration: none;
+}
+.texto_art_3>.logo_nar{
+    height: 50px;
+    width: 50px;
+}
+.art_3_azul > img{
+   
+    display: inline;
+    width: 170px;
+    height:240px;
+    margin-right: -16px;
+    border-style: hidden;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.art_4_azul{
+    background-color: white;
+    width: 40%;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display:inline-flex;
+}
+.texto_art_4>*{
+    flex-direction: column;
+    text-align: left;
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.texto_art_4 > h3{
+    font-size: 27px;
+    font-weight: normal;
+}
+.texto_art_4 > p{
+    font-size: 19px;
+    font-weight: normal;
+    color: grey;
+    margin-bottom: 20px;
+}
+.texto_art_4 > a{
+    color: green;
+    text-decoration: none;
+}
+.texto_art_4>.logo_ver{
+    height: 50px;
+    width: 50px;
+}
+.art_4_azul > img{
+   
+    display: inline;
+    width: 170px;
+    height:240px;
+    margin-right: -16px;
+    border-style: hidden;
+}
 
 
 
