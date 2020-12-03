@@ -87,7 +87,6 @@ li{
     height: 45px;
     font-family: sans-serif; 
     background-color: #fffbf7;
-    vertical-align: middle;
 }
 .header > * {
     display: inline-block;
@@ -203,12 +202,11 @@ article> button{
     position: static;
 }
 .seccion_azul{
-    display: flexbox;
+    display: inline-block;
     position: static;
     background-color: teal;
     width: 100%;
     height: 800px;
-    align-items: stretch;
 }
 .art_1_azul{
     background-color: white;
@@ -381,10 +379,22 @@ article> button{
     display: inline;
     width: 170px;
     height:240px;
-    margin-right: -16px;
+    margin-right: 5px;
     border-style: hidden;
 }
 
+.bloque_articulos_1{
+    display: inline;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 15px;
+}
+.bloque_articulos_2{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+}
 
 
 
