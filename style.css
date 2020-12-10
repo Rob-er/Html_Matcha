@@ -204,7 +204,7 @@ li{
     display: block;
     position: static;
 }
-.seccion_azul{
+/*.seccion_azul{
     display: flex;
     position: static;
     background-color: teal;
@@ -216,12 +216,38 @@ li{
     align-content: space-between;
     top: 0;
     bottom: 0;
-}   
+}  */
+
+/* Clases para orientar con Grid seccion azul*/
+.seccion_azul{
+    display: grid;
+    grid-template:  repeat(2, 1fr) / repeat(2, 1fr);
+    background-color: #025157;
+    padding: 5% 10%;
+    height: 800px; 
+}
+
+/*.bloque_articulos_1{
+    display: inline;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 100px;
+    margin-bottom: 0;
+}
+.bloque_articulos_2{
+    display: inline;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 30px;
+}*/
+
+
 .art_1_azul{
     background-color: white;
-    width: 40%;
     height: 300px;
-    /*margin-top: 70px;*/
     margin-left: 150px;
     border-radius: 5px;
     display:inline-flex;
@@ -264,9 +290,7 @@ li{
 
 .art_2_azul{
     background-color: white;
-    width: 40%;
     height: 300px;
-    /*margin-top: 70px;*/
     margin-left: 30px;
     border-radius: 5px;
     display:inline-flex;
@@ -307,9 +331,7 @@ li{
 
 .art_3_azul{
     background-color: white;
-    width: 40%;
     height: 300px;
-   /* margin-top: 70px;*/
     margin-left: 30px;
     border-radius: 5px;
     display:inline-flex;
@@ -351,9 +373,7 @@ li{
 
 .art_4_azul{
     background-color: white;
-    width: 40%;
     height: 300px;
-    /*margin-top: 70px;*/
     margin-left: 30px;
     border-radius: 5px;
     display:inline-flex;
@@ -392,22 +412,7 @@ li{
     border-style: hidden;
 }
 
-.bloque_articulos_1{
-    display: inline;
-    width: 100%;
-    align-items: flex-start;
-    justify-content: center;
-    margin-right: 100px;
-    margin-bottom: 0;
-}
-.bloque_articulos_2{
-    display: inline;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 120px;
-    margin-top: 30px;
-}
+/* Seccion verde con articulo lateral*/
 .seccion_verde{
     display:inline-flex;
     position: static;
@@ -434,7 +439,6 @@ li{
     height: 200px;
     width: 250px;
 }
-
 
 
 
