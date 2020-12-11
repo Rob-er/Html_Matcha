@@ -440,7 +440,58 @@ li{
     width: 250px;
 }
 
+@media (max-width: 424px) {
+    .navegador,
+    .acciones {
+        display: none;
+    }
 
+    .titulo {
+        margin-top: 100px;
+    }
+    .titulo> h1{
+        font-size: 30px;
+    }
+
+    .section_video{
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .art_paral > h3{
+        font-size: 30px;
+    }
+
+    .art_paral > p{
+        font-size: 20px;
+    }
+
+.seccion_azul{
+    grid-template: repeat(4, 1fr) / 1fr;
+    max-width: 90%;
+}
+
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .navegador,
+    .acciones {
+        display: none;
+    }
+    .titulo {
+        margin-top: 100px;
+    }
+    .titulo> h1{
+        font-size: 45px;
+    }
+
+    .section_video{
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+}
 
 
 
