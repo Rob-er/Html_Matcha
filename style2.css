@@ -358,3 +358,36 @@
       margin: 30px auto;
     }
   }
+
+  /* Seccion verde con articulo lateral*/
+.seccion_verde{
+    display:flex;
+    background-color:#a1d683;
+    width: 100%;
+    grid-template: 1fr, repeat(2, 1fr);
+}
+.seccion_verde > article> button{
+    color: #fff;
+    background-color: #025157;
+    padding: 12px 14px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+
+.img_clientes{
+    width: 400px;
+    height: 150px;
+}
+.art_en_verde{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    margin: 100px;
+}
+.carrusel{
+    flex: 1;
+}
