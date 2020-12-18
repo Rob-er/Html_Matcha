@@ -1,0 +1,46 @@
+@use 'global' as *;
+.blog{
+    
+    background-color: white;
+    max-width: unset;
+    padding: 5% 10%;
+
+    .process-list{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        
+     .process{
+        margin-bottom: 25px;
+        &>div{
+            &>h3{
+                color: $dark-green-title;
+                margin-bottom: 0;
+                font-size: 30px;
+                font-weight: 500;
+            }
+            &>p{
+                color: $dark-green-title;
+                margin: 0;
+            }
+        }
+    }
+   
+    }
+
+    .card-title{
+        font-size: 24px;
+        color:$gray;
+}
+    .metadata{
+        .category{
+            $light-green;
+        .read-time{
+            color: $light-green;
+        }
+        }
+    .card-text{
+        color: $light-gray;
+    }
+
+    }
+}
