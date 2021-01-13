@@ -224,7 +224,8 @@ li{
     grid-template:  repeat(2, 1fr) / repeat(2, 1fr);
     background-color: #025157;
     padding: 5% 10%;
-    height: 800px; 
+    height: 800px;
+    grid-template-rows: 50px;
 }
 
 /*.bloque_articulos_1{
@@ -248,7 +249,7 @@ li{
 .art_1_azul{
     background-color: white;
     height: 300px;
-    margin-left: 150px;
+   
     border-radius: 5px;
     display:inline-flex;
 }
@@ -291,7 +292,6 @@ li{
 .art_2_azul{
     background-color: white;
     height: 300px;
-    margin-left: 30px;
     border-radius: 5px;
     display:inline-flex;
 }
